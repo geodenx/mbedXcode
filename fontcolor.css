@@ -1,0 +1,52 @@
+/* body {				/\* start-up color for debug *\/ */
+/*     background: rgba(255, 0, 0, .7) !important; */
+/* } */
+
+.EDITOR_CURSOR,.EDITOR_LINE,.EDITOR_LINE_TEST,.EDITOR_NUMBER{
+    font-family: Menlo !important;
+    font-size:11px !important;
+}
+
+/* .SH_START_END_TAG{color:#FF0000 !important;} */
+.SH_STRING{
+    color:#D62B4A !important;	/* original: #FF0080 */
+}
+.SH_COMMENT{
+    color:#007400 !important;	/* original: #008000 */
+}
+.SH_VAR{
+    color:#404080 !important;	/* original: #408080*/
+}
+/* .SH_VAR_STRING{color:#000080 !important;} */
+/* .SH_SPECIAL{color:#000000 !important;} */
+.SH_RESERVED{
+    color:#AA0D91 !important;	/* original: #0000FF */
+}
+/* .SH_HTML{color:#0000FF !important;} */
+/* .SH_HTML_PARAM{color:#0000A0 !important;} */
+/* .SH_CSS_PARAM{color:#0000FF !important;} */
+.SH_BUILTIN{
+    color:#1C00CF !important;	/* original: #FF0000 */
+}
+
+.EDITOR_NUMBER{color:#ACA899;}
+.EDITOR_SELECT{
+    background-color:#316AC5;
+/*     background-color:#B5D5FF !important; /\* Color in Xcode. But, color:#FFFFFF is unintentionally applied. *\/ */
+    color:#FFFFFF; /*     original: #FFFFFF; */
+}
+.EDITOR_CURSOR{display:block;position:absolute;
+	       width:1px !important; /* original: 1px */
+	       height:13px !important; /* original: 15px */
+	       top:0;left:0;visibility:hidden;background-color:black;cursor:text;}
+.EDITOR_LINE{white-space:nowrap;
+	     height:13px !important; /* original: 15px */
+	     cursor:text;}
+/* div.EDITOR_LINE_CURRENT{background-color:#FBFFE0;} */
+/* .EDITOR_LINE_DIFF_A{background-color:#DDFFDD;} */
+/* .EDITOR_LINE_DIFF_D{background-color:#FFE8E0;} */
+.EDITOR_NUMBER{display:block;width:35px;
+	       height:13px !important;	/* original: 15px */
+	       text-align:right;padding-right:7px;}
+/* .EDITOR_PASTE{position:absolute;visibility:visible;display:block;width:10px;height:10px;top:-200;left:-800;margin:0;padding:0;z-index:-1000;} */
+/* .EDITOR_SCREEN{cursor:text;} */
