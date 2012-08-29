@@ -2,9 +2,15 @@
 /*     background: rgba(255, 0, 0, .7) !important; */
 /* } */
 
-.EDITOR_CURSOR,.EDITOR_LINE,.EDITOR_LINE_TEST,.EDITOR_NUMBER{
+.EDITOR_CURSOR,.EDITOR_LINE,.EDITOR_LINE_TEST,.EDITOR_NUMBER{ /* Editor */
     font-family: Menlo !important;
     font-size:11px !important;
+}
+
+.DIFF_COL,.DIFF_LINE{		/* Revision History Mode */
+    font-family: Menlo !important;
+    font-size:11px !important;
+    line-height: 9px !important; /* tr, td 13 px */
 }
 
 /* .SH_START_END_TAG{color:#FF0000 !important;} */
