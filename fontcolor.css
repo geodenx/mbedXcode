@@ -51,7 +51,7 @@
 /* div.EDITOR_LINE_CURRENT{background-color:#FBFFE0;} */
 /* .EDITOR_LINE_DIFF_A{background-color:#DDFFDD;} */
 /* .EDITOR_LINE_DIFF_D{background-color:#FFE8E0;} */
-.EDITOR_NUMBER{display:block;width:35px;
+.EDITOR_NUMBER{display:block;
 	       height:13px !important;	/* original: 15px */
 	       text-align:right;padding-right:7px;}
 /* .EDITOR_PASTE{position:absolute;visibility:visible;display:block;width:10px;height:10px;top:-200;left:-800;margin:0;padding:0;z-index:-1000;} */

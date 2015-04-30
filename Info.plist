@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Atsuya Okazaki</string>
 	<key>Builder Version</key>
-	<string>7536.25</string>
+	<string>10600.5.17</string>
 	<key>CFBundleDisplayName</key>
 	<string>Xcode style for mbed</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -30,10 +30,14 @@
 		<array>
 			<string>https://mbed.org/compiler/</string>
 			<string>http://mbed.org/compiler/</string>
+			<string>https://developer.mbed.org/compiler/</string>
+			<string>http://developer.mbed.org/compiler/</string>
 		</array>
 	</dict>
 	<key>Description</key>
 	<string>Xcode-like appearance for mbed Compiler</string>
+	<key>DeveloperIdentifier</key>
+	<string>R94KT98Z66</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -43,6 +47,7 @@
 			<key>Allowed Domains</key>
 			<array>
 				<string>mbed.org</string>
+				<string>developer.mbed.org</string>
 			</array>
 			<key>Include Secure Pages</key>
 			<true/>
